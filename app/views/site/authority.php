@@ -1,0 +1,1 @@
+<h1>You don't have Authority to add post in system </h1>

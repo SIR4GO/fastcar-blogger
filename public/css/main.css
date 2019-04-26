@@ -1,0 +1,256 @@
+
+/**/
+/*Framework*/
+*
+{
+    -moz-box-sizing:border-box ;
+    -webkit-box-sizing:border-box ;
+    box-sizing: border-box;
+}
+.rtl {  direction: rtl;  }
+
+
+/* my style*/
+
+.nav-modify
+{
+   /**/
+}
+.scroll-effect
+{
+    opacity: 0.8;
+}
+.social-icons
+{
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+.collapse
+{
+    position: relative;
+}
+
+.social-icons a
+{
+    color:snow;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+
+/**/
+.header {
+    margin-top:55px;
+    width: 100%;
+    height: 270px;
+}
+.nav-item-modify
+{
+    color: snow;
+}
+
+.header img {
+    float: right;
+    margin-right: 50px;
+    outline: none;
+    width: auto;
+    height: auto;
+}
+/**/
+.nav-II
+{
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.change-social-postion
+{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
+
+
+/**/
+body
+{
+
+    font-family: 'Mada', sans-serif ;
+    /*font-family: 'Amiri', serif;*/
+    /*font-family: 'Lateef', cursive;*/
+}
+.row .sidebar
+{
+    min-height: 400px;
+    justify-content: center;
+    text-align: right;
+    padding: 0;
+
+}
+.row .sidebar h1
+{
+
+   font-size: 2.2vw;
+    color: black;
+    margin-bottom: 40px;
+    margin-right: 20px;
+
+}
+
+
+/*.row .sidebar .card-modify*/
+/*{*/
+
+   /*margin-top: 20px;*/
+    /*font-size: 1.4vw;*/
+    /*margin: auto;*/
+/*}*/
+
+
+.row .sidebar .cup
+{
+    display: flex;
+    width: 100%;
+    height: 110px;
+
+
+}
+
+.row .sidebar hr
+{
+    color: gainsboro;
+    border-color: gainsboro;
+    background-color: gainsboro;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.row .sidebar .cup img
+{
+    width: 42% ;
+    height: 100% ;
+    box-shadow: 0 0 5px 0 gainsboro;
+    border-radius: 8px;
+}
+.row .sidebar .cup div a
+{
+    max-width: 100%;
+    max-height:100%;
+    text-decoration: none;
+}
+
+.row .sidebar .cup div p
+{
+    overflow-x: auto; /* Use horizontal scroller if needed */
+    white-space: pre-wrap; /* css-3 */     /* to avoid overflow text*/
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+    white-space : normal;
+    margin: 8px;
+    overflow-y: hidden;
+    max-width: 100%;
+    max-height:100%;
+    color: black;
+
+
+}
+
+.row .sidebar .cup div p:hover
+{
+    color: #3395FF;
+}
+
+
+
+
+.row .view
+{
+    max-height: 100%;
+
+    text-align: right;
+}
+
+.hide-me
+{
+    display: none;
+}
+
+/**/
+
+.footer
+{
+    height: 60px;
+    background-color: #000000;
+    opacity: 0.8;
+    margin-left: 0  !important;
+    margin-right: 0  !important;
+    margin-top: 300px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.footer div
+{
+    margin: auto;
+}
+
+.footer div .modify
+{
+    margin-bottom: 0;
+    font-size: 1.4vw;
+    color: snow;
+    font-weight: bold;
+
+}
+
+.card-img-bottom
+{
+    max-height: 600px;
+}
+
+
+
+body .edit
+{
+    color: white;
+    max-width: 250px;
+    max-height: 150px;
+    text-align: center;
+    font-style: unset;
+    font-weight: bold;
+    opacity: 0.8;
+    position: absolute;
+    top:450px;
+
+
+}
+
+body .edit a
+{
+    text-decoration: none;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 30px;
+}
+
+@media (max-width: 991px) {
+
+    .row .sidebar .cup img
+    {
+
+        height: 96px ;
+        margin: auto 0 auto 0;
+
+    }
+}
+@media (max-width: 991px) {
+.change-social-postion
+{
+    position: absolute;
+    left: 150px;
+}
+
+}

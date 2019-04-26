@@ -1,0 +1,250 @@
+/**/
+/*Framework*/
+.hide
+{
+    display: none;
+}
+*
+{
+    -moz-box-sizing:border-box ;
+    -webkit-box-sizing:border-box ;
+    box-sizing: border-box;
+}
+.rtl {  direction: rtl;  }
+
+
+html, body {
+    font-family: 'El Messiri', sans-serif;  /* TO Solve problem html height greater than body*/
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+/* my style*/
+
+.collapse
+{
+    position: relative;
+}
+
+.social-icons
+{
+    position: absolute;
+    left: 0;
+}
+
+.social-icons a
+{
+    color:snow;
+    text-decoration: none;
+    margin-right: 15px;
+
+}
+
+
+
+
+
+/*Start header*/
+
+.header
+{
+    height:637px;
+    background-image:  url("../photo/back1.jpg") ;
+    position: relative;
+	background-size: cover;
+
+}
+.header .overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.8;
+    position: absolute; /* postion to avoid effect of navbar margin duo to navbar first element in overlay and don't
+                           have space for margin so margin become for parent not navbar to see that delete
+                           position , we can delete position  soln and make padding top instead of margin top  */
+    top: 0;
+    right: 0;
+    left: 0;
+}
+/*Start nav*/
+.header .overlay .navbar
+{
+    background: none !important;
+    margin-top: 10px;
+}
+
+.header .content
+{
+    position: absolute;
+    top: 295px;
+    width: 100%;
+    text-align: center;
+    color: #f7f7f7;
+
+}
+.header .overlay .content h1
+{
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 992px) {
+
+    .header .overlay .content h1
+    {
+        margin-top: 90px;
+        margin-left: 20px;
+
+    }
+    .header .overlay .content i
+    {
+        margin-top:10px !important;
+
+    }
+    .header .overlay .navbar .collapse .temp
+    {
+         display: none;
+
+    }
+}
+
+
+@media (max-width: 385px) {
+
+    .header .overlay .content h1
+    {
+        font-size: 40px;
+    }
+    .header .overlay .content p
+    {
+        font-size: 12px;
+    }
+
+}
+
+.header .overlay .content i
+{
+  margin-top: 110px;
+
+}
+.header .overlay .content i:hover
+{
+    background: #007bff;
+    padding: 8px;
+
+}
+
+
+
+/*Start body*/
+.site-view
+{
+    margin: 100px 0 0 0;
+    text-align: center;
+    color: darkslategray;
+
+}
+.site-view h1
+{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.site-view p
+{
+    margin-bottom: 30px;
+}
+
+
+.site-view .social-icons-body a
+{
+
+    padding: 0 0 0 20px;
+    text-decoration: none;
+
+}
+
+
+@media (max-width:353px ) {
+    .site-view h1
+    {
+       font-size: 30px;
+    }
+}
+
+/* Department section*/
+
+.department-section
+{
+    margin: 100px 0 100px 0;
+    text-align: center;
+    background-color: gainsboro;
+
+
+
+}
+
+.department-section h1
+{
+    margin:40px 0 50px 0;
+    font-weight: bold;
+    color: darkslategray;
+}
+.department-section .db  img
+{
+
+    border-radius: 100px;
+    box-shadow:10px 10px  50px #f7f7f7;
+
+}
+.department-section .db a
+{
+    text-decoration: none;
+}
+.department-section .db h3
+{
+    margin: 15px 0 15px 0;
+    color: darkslategray;
+}
+.department-section .db p
+{
+    margin-bottom: 50px;
+}
+
+
+/*start footer*/
+.footer
+{
+    height: 60px;
+    background-color: #000000;
+    opacity: 0.8;
+    margin-left: 0  !important;
+    margin-right: 0  !important;
+    margin-top: 300px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+
+}
+.footer div
+{
+    margin: auto;
+}
+
+.footer div .modify
+{
+    margin-bottom: 0;
+    font-size: 1.4vw;
+    color: snow;
+    font-weight: bold;
+
+}

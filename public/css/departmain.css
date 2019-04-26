@@ -1,0 +1,112 @@
+.body
+{
+    width: 100%;
+    max-height: 100%;
+    background-color: darkgrey;
+
+}
+
+.box
+{
+
+    width: 100%;
+    max-height: 220px;
+    border: 2px solid snow;
+    display: flex;
+    background-color: #ffffff;
+    margin-bottom: 1px;
+
+
+}
+
+.box img
+{
+    max-width: 35%;
+    height: auto;
+    border: 2px solid snow;
+    border-radius: 6px;
+    margin: 10px;
+    box-shadow: 0 0 15px 1px gainsboro;
+}
+.box .content
+{
+    max-width: 53%;
+    max-height: 200px;
+
+
+}
+.box .content p
+{
+   font-size: 1rem;
+   margin: 10px 20px 0 0;
+    overflow-y: hidden;
+}
+
+
+.box .content h2
+{
+    /*color:#3395FF ;*/
+    margin-bottom: 10px;
+    margin-top: 15px;
+
+    font-size: 2.4vw;
+
+}
+
+
+@media (max-width: 993px ) {
+
+    .box img
+    {
+        height: 160px !important;
+    }
+    .box .content p
+    {
+        font-size: 1.2rem;
+
+    }
+
+}
+
+@media (max-width: 750px ) {
+    .box
+    {
+        box-shadow: 0 0 15px 1px gray;
+    }
+
+
+    .box .content p
+    {
+        font-size: 1rem;
+
+    }
+    .box .content h2
+    {
+
+        font-size: 1.4rem;
+
+
+    }
+}
+
+@media (max-width: 450px ) {
+
+
+    .box img
+    {
+        height: 100px !important;
+        width:100px;
+    }
+
+    .box .content h2
+    {
+
+        font-size: .8rem;
+
+    }
+    .box .content p
+    {
+        font-size: .75rem;
+
+    }
+}
